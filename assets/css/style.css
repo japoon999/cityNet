@@ -98,9 +98,10 @@
     justify-content: space-around;
     font-size: 14px;
     background-color: #f9f9f9;
-    padding: 0px 105px 0px ;
+    padding: 0px 105px 0px;
     border-top: solid 2px #eee;
     border-bottom: solid 2px #eee;
+    z-index: 1;
 
 }
 
@@ -121,7 +122,135 @@
     font-weight: 500;
 }
 
-  /* .nav-item .nav-link li ::after{
+/* .nav-item .nav-link li ::after{
     content: "\007C";
   
 } */
+
+.blocks {
+    width: 100%;
+    height: 300px;
+    padding-left: 115px;
+
+
+
+
+}
+
+.block {
+    width: 1120px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    padding: 0px 50px;
+    border: 1px solid #eee;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    border-radius: 14px;
+
+
+}
+
+.block h6 {
+    width: 150px;
+    font-size: 14px;
+    margin-right: 21px;
+    /* padding-right: 10px; */
+
+}
+
+
+.city-block input {
+    width: 250px;
+    border-radius: 10px;
+    font-size: 27px;
+    border: 2px solid #ccc;
+
+
+}
+
+
+input,
+input::placeholder {
+    font-size: 15px;
+    padding: 0px 15px 5px;
+}
+
+
+
+.city-block span {
+    display: inline-block;
+    left: 15px;
+    font-size: 10px;
+    background-color: white;
+
+}
+
+
+.street-box input{
+
+    width: 250px;
+    border-radius: 10px;
+    font-size: 27px;
+    border: 2px solid #ccc;
+}
+
+
+
+.street-box span {
+    display: inline-block;
+    left: 15px;
+    font-size: 10px;
+    background-color: white;
+
+}
+
+
+
+
+.home-box input{
+
+    width: 150px;
+    border-radius: 10px;
+    font-size: 27px;
+    cursor: not-allowed;
+    border: 2px solid #ccc;
+}
+
+
+
+.home-box span {
+    display: inline-block;
+    left: 15px;
+    font-size: 10px;
+    background-color: white;
+
+}
+
+
+
+.close-bt button {
+    width: 170px;
+    border-radius: 10px;
+    font-size: 27px;
+    margin-bottom: 25px;
+    padding-bottom: 6px;
+    margin-left: 20px;
+    cursor: not-allowed;
+    background-color: #dbdbdb;
+    border: 2px solid #ccc;
+
+
+
+
+}
+
+
+.close-bt button a {
+font-size: 17px;
+font-weight: 900;
+color: #b8b8b8;
+cursor: not-allowed;
+
+}
+
