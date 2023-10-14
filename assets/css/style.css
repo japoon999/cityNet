@@ -2,13 +2,18 @@
 @import url(_variables.css);
 
 
+
 .head-box {
     width: 100%;
     height: 70px;
     display: flex;
     align-items: center;
-    padding: 0px 60px
+    padding: 0px 60px;
+
 }
+
+
+
 
 .language {
     width: 125px;
@@ -25,21 +30,28 @@
 
 }
 
+.language a {
+    color: var(--black);
+}
+
 
 
 
 .language .language-item:hover {
-    width: 40px;
+    width: 50px;
     height: 36px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--black);
+    position: relative;
+    right: 6px;
     border-radius: 8px;
     color: aliceblue;
     transition: 1s;
     background-color: var(--primaryRed);
+
 }
+
 
 
 
@@ -93,6 +105,8 @@
 .nav-item {
     width: 100%;
     height: 50px;
+    /* position:sticky !important;
+    top: 0 !important; */
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -101,7 +115,6 @@
     padding: 0px 105px 0px;
     border-top: solid 2px #eee;
     border-bottom: solid 2px #eee;
-    z-index: 1;
 
 }
 
@@ -112,20 +125,44 @@
     margin-top: 20px;
 
 
+}
+
+
+.nav-item:last-child:after {
+    content: "\007C";
+    font-size: 25px;
+    color: #dbdbdb;
+    position: relative;
+    right: 60px;
 
 }
+
+
+
+
 
 
 
 .nav-item .nav-link a {
     color: var(--black);
     font-weight: 500;
+    left: 20px;
 }
 
-/* .nav-item .nav-link li ::after{
+
+.img-item {
+    position: relative;
+
+}
+
+.img-item::before {
     content: "\007C";
-  
-} */
+    position: absolute;
+    font-size: 25px;
+    color: #dbdbdb;
+    top: -7px;
+    right: 65px;
+}
 
 .blocks {
     width: 100%;
@@ -133,20 +170,20 @@
     padding-left: 115px;
 
 
-
-
 }
 
 .block {
-    width: 1120px;
-    height: 110px;
+    width: 91%;
+    height: 90px;
     display: flex;
     align-items: center;
-    margin-top: 70px;
+    margin-top: 50px;
     padding: 0px 50px;
     border: 1px solid #eee;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
     border-radius: 14px;
+    position: sticky;
+    top: 0px;
 
 
 }
@@ -155,87 +192,106 @@
     width: 150px;
     font-size: 14px;
     margin-right: 21px;
- 
+
 
 }
 
 
 .city-block input {
     width: 250px;
-    border-radius: 10px;
-    font-size: 27px;
+    border-radius: 8px;
+    font-size: 24px;
     border: 2px solid #ccc;
-
+    margin-top: 19px;
 
 }
 
+
+
+
+.dropdown {
+    width: 22%;
+    height: 400px;
+    position: absolute;
+    display: none;
+    background-color: white;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    border-radius: 10px;
+    top: 70px;
+    line-height: 40px;
+
+}
+
+
+.city-block:hover .dropdown {
+    display: block;
+}
+
+.dropdown ul li {
+    position: relative;
+    right: 32px;
+    width: 115%;
+    border-bottom: solid 1px rgb(235, 232, 232);
+}
+
+.dropdown ul li a {
+    position: relative;
+    color: var(--black);
+    left: 18px;
+}
 
 input,
 input::placeholder {
-    font-size: 15px;
-    padding: 0px 15px 5px;
+    font-size: 14px;
+    padding: 0px 8px 5px;
+    font-weight: 700;
 }
 
 
 
-.city-block span {
-    display: inline-block;
-    left: 15px;
-    font-size: 10px;
-    background-color: white;
+.block span {
+    position: relative;
+    left: 12px;
+    bottom: 58px;
+    font-size: 11px;
+    background-color: var(--white);
 
 }
 
 
-.street-box input{
+.street-box input {
 
     width: 250px;
     border-radius: 10px;
-    font-size: 27px;
+    font-size: 24px;
     border: 2px solid #ccc;
-}
-
-
-
-.street-box span {
-    display: inline-block;
-    left: 15px;
-    font-size: 10px;
-    background-color: white;
-
+    margin-top: 19px;
 }
 
 
 
 
-.home-box input{
+.home-box input {
 
     width: 150px;
     border-radius: 10px;
-    font-size: 27px;
+    font-size: 24px;
     cursor: not-allowed;
     border: 2px solid #ccc;
+    margin-top: 19px;
 }
 
 
-
-.home-box span {
-    display: inline-block;
-    left: 15px;
-    font-size: 10px;
-    background-color: white;
-
-}
 
 
 
 .close-bt button {
     width: 170px;
     border-radius: 10px;
-    font-size: 27px;
-    margin-bottom: 25px;
-    padding-bottom: 6px;
-    margin-left: 20px;
+    font-size: 24px;
+    margin-bottom: 6px;
+    padding-bottom: 4px;
+    margin-left: 14px;
     cursor: not-allowed;
     background-color: #dbdbdb;
     border: 2px solid #ccc;
@@ -247,19 +303,20 @@ input::placeholder {
 
 
 .close-bt button a {
-font-size: 17px;
-font-weight: 900;
-color: #b8b8b8;
-cursor: not-allowed;
+    font-size: 14px;
+    font-weight: 900;
+    color: #b8b8b8;
+    cursor: not-allowed;
 
 }
 
 
-/* .close-bt button a {
-    font-size: 17px;
-    font-weight: 900;
-    color: #b8b8b8;
-    cursor: not-allowed;
-    
-    } */
+.close-bt::before {
+    content: '';
+    width: 1px;
+    height: 45px;
+    background-color: #b8b8b8;
+    position: absolute;
+    right: 230px;
 
+}
