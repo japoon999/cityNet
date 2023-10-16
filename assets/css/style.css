@@ -547,3 +547,86 @@ input::placeholder {
 .footer-btn button a {
     color: white;
 }
+
+
+.info-banner {
+    width: 84%;
+    height: 370px;
+    background-color: var(--primaryRed);
+    margin: 100px 105px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+.banner-text {
+    width: 50%;
+    padding: 60px 70px;
+
+
+}
+
+.banner-text h3 {
+    font-size: 38px;
+    font-weight: 700;
+    color: white;
+
+}
+
+
+.banner-text h6 {
+    font-size: 18px;
+    color: var(--white);
+    margin-top: 25px;
+
+}
+
+
+.banner-btn button {
+    width: 45%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 30px;
+}
+
+
+.banner-btn button a {
+    color: var(--primaryRed);
+}
+
+
+
+
+
+
+.banner-color {
+    width: 28%;
+    height: 368px;
+    background-color: #b8405e;
+    border-radius: 50%;
+    position: absolute;
+    left: 823px;
+    top: 128rem;
+   
+   
+
+}
+
+
+
+
+
+
+
+.banner-img img {
+    width: 65%;
+    position: relative;
+    left: 190px;
+    bottom: 50px;
+
+}
