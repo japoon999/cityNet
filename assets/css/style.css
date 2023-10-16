@@ -73,13 +73,7 @@
 
 }
 
-.left-bt button {
 
-    background-color: var(--white);
-    margin-right: 17px;
-
-
-}
 
 
 
@@ -99,6 +93,16 @@
 
 .left-bt button a {
     color: var(--black);
+}
+
+
+
+.left-bt button {
+
+    background-color: var(--white);
+    margin-right: 17px;
+
+
 }
 
 
@@ -162,6 +166,17 @@
     color: #dbdbdb;
     top: -7px;
     right: 65px;
+}
+
+
+
+.d-block {
+
+    height: 500px;
+
+
+
+
 }
 
 .blocks {
@@ -319,4 +334,216 @@ input::placeholder {
     position: absolute;
     right: 230px;
 
+}
+
+
+
+.tariff-text h2 {
+    margin: 40px 110px;
+    font-size: 40px;
+    font-weight: 900;
+    color: #5f5b5b;
+
+
+
+}
+
+
+
+
+.tariff-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 90px;
+}
+
+
+.list-box {
+    width: 30%;
+    height: 800px;
+    border: 1px solid rgb(206, 200, 200);
+    border-radius: 15px;
+    position: relative;
+
+
+
+}
+
+
+.list-box h4 {
+    padding: 30px 20px;
+
+}
+
+
+
+.golobos {
+    display: grid;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    place-items: center;
+    background: rgb(177, 41, 74);
+    background: linear-gradient(115deg, rgba(177, 41, 74, 1) 6%, rgba(178, 67, 94, 1) 19%, rgba(224, 169, 184, 1) 38%, rgba(255, 255, 255, 1) 100%);
+    position: relative;
+    margin: 0px 70px;
+}
+
+.golobos:after {
+    content: "";
+    display: block;
+    background: #fff;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    position: relative;
+}
+
+.text {
+    display: block;
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+    text-align: center;
+
+
+}
+
+.text .numbber {
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.text .tex {
+    font-size: 20px;
+
+}
+
+
+
+.optik {
+    padding: 20px 20px;
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(87, 84, 84);
+
+}
+
+.wi-fi {
+    padding: 0px 20px;
+    font-weight: 900;
+    color: rgb(87, 84, 84);
+    font-size: 20px;
+}
+
+
+.footer-bt {
+    width: 80%;
+    height: 65px;
+    background-color: #f8eaed;
+    border-radius: 10px;
+    margin: 200px 30px;
+
+}
+
+.footer-bt span {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(87, 84, 84);
+    position: relative;
+    top: 15px;
+    left: 20px;
+
+}
+
+
+
+.footer-bt button {
+    width: 100px;
+    height: 45px;
+    border: 1px solid rgb(192, 188, 188);
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: var(--primaryRed);
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+
+
+
+
+.footer-bt button a {
+    color: var(--white);
+
+}
+
+
+
+.list-bt button {
+
+    border: none;
+
+}
+
+.list-bt button a {
+    font-size: 15px;
+    color: var(--primaryRed);
+    position: absolute;
+    top: 750px;
+    left: 160px;
+}
+
+
+.keyboard {
+    position: absolute;
+    margin: 25px;
+    font-weight: 900;
+    color: #5f5b5b;
+    font-size: 19px;
+}
+
+
+.footer-btn {
+    width: 80%;
+    height: 65px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    position: absolute;
+    top: 535px;
+    left: 30px;
+}
+
+
+
+
+
+
+.footer-btn span {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(87, 84, 84);
+    position: absolute;
+    top: 15px;
+    left: 20px;
+
+}
+
+
+
+.footer-btn button {
+    width: 100px;
+    height: 45px;
+    border: 1px solid rgb(192, 188, 188);
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: var(--primaryRed);
+    position: absolute;
+    left: 170px;
+    top: 10px;
+}
+
+.footer-btn button a {
+    color: white;
 }
