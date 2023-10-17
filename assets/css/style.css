@@ -1,7 +1,9 @@
 @import url(_reset.css);
 @import url(_variables.css);
 
-
+.header-cont {
+    display: initial;
+}
 
 .head-box {
     width: 100%;
@@ -9,11 +11,7 @@
     display: flex;
     align-items: center;
     padding: 0px 60px;
-
 }
-
-
-
 
 .language {
     width: 125px;
@@ -26,16 +24,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-
-
 }
 
 .language a {
     color: var(--black);
 }
-
-
-
 
 .language .language-item:hover {
     width: 50px;
@@ -49,20 +42,12 @@
     color: aliceblue;
     transition: 1s;
     background-color: var(--primaryRed);
-
 }
-
-
-
-
-
 
 .bt-box {
     display: flex;
     padding-left: 600px;
-
 }
-
 
 .bt-box button {
     width: 100px;
@@ -70,47 +55,30 @@
     border: 1px solid rgb(192, 188, 188);
     border-radius: 10px;
     font-size: 14px;
-
 }
 
-
-
-
-
-
 .right-bt button {
-
     background-color: var(--primaryRed);
 }
 
-
-
 .right-bt button a {
     color: var(--white);
-
 }
-
 
 .left-bt button a {
     color: var(--black);
 }
 
-
-
 .left-bt button {
-
     background-color: var(--white);
     margin-right: 17px;
-
-
 }
-
 
 .nav-item {
     width: 100%;
     height: 50px;
-    /* position:sticky !important;
-    top: 0 !important; */
+    position: sticky;
+    top: 0;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -119,18 +87,14 @@
     padding: 0px 105px 0px;
     border-top: solid 2px #eee;
     border-bottom: solid 2px #eee;
-
+    z-index: 2;
 }
-
 
 .nav-item .nav-link {
     width: 100%;
     margin-left: -20px;
     margin-top: 20px;
-
-
 }
-
 
 .nav-item:last-child:after {
     content: "\007C";
@@ -138,13 +102,7 @@
     color: #dbdbdb;
     position: relative;
     right: 60px;
-
 }
-
-
-
-
-
 
 
 .nav-item .nav-link a {
@@ -153,10 +111,8 @@
     left: 20px;
 }
 
-
 .img-item {
     position: relative;
-
 }
 
 .img-item::before {
@@ -171,21 +127,15 @@
 
 
 .d-block {
-
     height: 500px;
-
-
-
-
 }
 
 .blocks {
     width: 100%;
     height: 300px;
     padding-left: 115px;
-
-
 }
+
 
 .block {
     width: 91%;
@@ -197,18 +147,13 @@
     border: 1px solid #eee;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
     border-radius: 14px;
-    position: sticky;
-    top: 0px;
-
-
+    background-color: white;
 }
 
 .block h6 {
     width: 150px;
     font-size: 14px;
     margin-right: 21px;
-
-
 }
 
 
@@ -218,7 +163,6 @@
     font-size: 24px;
     border: 2px solid #ccc;
     margin-top: 19px;
-
 }
 
 
@@ -234,7 +178,6 @@
     border-radius: 10px;
     top: 70px;
     line-height: 40px;
-
 }
 
 
@@ -270,12 +213,10 @@ input::placeholder {
     bottom: 58px;
     font-size: 11px;
     background-color: var(--white);
-
 }
 
 
 .street-box input {
-
     width: 250px;
     border-radius: 10px;
     font-size: 24px;
@@ -287,7 +228,6 @@ input::placeholder {
 
 
 .home-box input {
-
     width: 150px;
     border-radius: 10px;
     font-size: 24px;
@@ -310,10 +250,6 @@ input::placeholder {
     cursor: not-allowed;
     background-color: #dbdbdb;
     border: 2px solid #ccc;
-
-
-
-
 }
 
 
@@ -322,7 +258,6 @@ input::placeholder {
     font-weight: 900;
     color: #b8b8b8;
     cursor: not-allowed;
-
 }
 
 
@@ -333,7 +268,6 @@ input::placeholder {
     background-color: #b8b8b8;
     position: absolute;
     right: 230px;
-
 }
 
 
@@ -343,9 +277,6 @@ input::placeholder {
     font-size: 40px;
     font-weight: 900;
     color: #5f5b5b;
-
-
-
 }
 
 
@@ -364,15 +295,11 @@ input::placeholder {
     border: 1px solid rgb(206, 200, 200);
     border-radius: 15px;
     position: relative;
-
-
-
 }
 
 
 .list-box h4 {
     padding: 30px 20px;
-
 }
 
 
@@ -405,29 +332,22 @@ input::placeholder {
     top: 50px;
     z-index: 1;
     text-align: center;
-
-
 }
 
 .text .numbber {
     font-size: 40px;
     font-weight: 700;
-
 }
 
 .text .tex {
     font-size: 20px;
-
 }
-
-
 
 .optik {
     padding: 20px 20px;
     font-weight: 900;
     font-size: 20px;
     color: rgb(87, 84, 84);
-
 }
 
 .wi-fi {
@@ -444,7 +364,6 @@ input::placeholder {
     background-color: #f8eaed;
     border-radius: 10px;
     margin: 200px 30px;
-
 }
 
 .footer-bt span {
@@ -454,7 +373,6 @@ input::placeholder {
     position: relative;
     top: 15px;
     left: 20px;
-
 }
 
 
@@ -476,15 +394,12 @@ input::placeholder {
 
 .footer-bt button a {
     color: var(--white);
-
 }
 
 
 
 .list-bt button {
-
     border: none;
-
 }
 
 .list-bt button a {
@@ -527,7 +442,6 @@ input::placeholder {
     position: absolute;
     top: 15px;
     left: 20px;
-
 }
 
 
@@ -557,7 +471,6 @@ input::placeholder {
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
-
 }
 
 
@@ -566,15 +479,12 @@ input::placeholder {
 .banner-text {
     width: 50%;
     padding: 60px 70px;
-
-
 }
 
 .banner-text h3 {
     font-size: 38px;
     font-weight: 700;
     color: white;
-
 }
 
 
@@ -582,7 +492,6 @@ input::placeholder {
     font-size: 18px;
     color: var(--white);
     margin-top: 25px;
-
 }
 
 
@@ -612,9 +521,6 @@ input::placeholder {
     position: absolute;
     left: 823px;
     top: 128rem;
-
-
-
 }
 
 
@@ -628,13 +534,11 @@ input::placeholder {
     position: relative;
     left: 190px;
     bottom: 50px;
-
 }
 
 .section-title {
     width: 100%;
     height: 100vh;
-
 }
 
 
@@ -652,7 +556,6 @@ input::placeholder {
     gap: 25px;
     margin-left: 90px;
     margin-top: 35px;
-
 }
 
 
@@ -674,17 +577,12 @@ input::placeholder {
     position: relative;
     top: 15px;
     left: 25px;
-
-
-
 }
 
 .title-box img {
     position: absolute;
     right: 15px;
     bottom: 15px;
-
-
 }
 
 
@@ -695,7 +593,6 @@ input::placeholder {
     margin: 25px 25px;
     font-weight: 900;
     color: #5f5b5b;
-
 }
 
 
@@ -704,4 +601,108 @@ input::placeholder {
     width: 95%;
     margin-left: 25px;
     color: #979292;
+}
+
+
+.content-img {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.content-text h2 {
+    font-size: 46px;
+    font-weight: 700;
+    color: #615f5f;
+    margin: 60px 0px 20px 90px;
+
+}
+
+
+.content-text h5 {
+    color: #979292;
+    margin: 20px 0px 0px 90px;
+    font-size: 19px;
+}
+
+.content-info {
+    width: 75%;
+    height: 150vh;
+
+}
+
+
+
+.info-box {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+.numbber-box {
+    width: 75px;
+    height: 75px;
+    margin: 0px 0px 0px 90px;
+    border: 1px solid rgb(206, 204, 204);
+    border-radius: 50%;
+}
+
+
+.cricle {
+    width: 55px;
+    height: 55px;
+    font-size: 23px;
+    color: var(--primaryRed);
+    font-weight: 700;
+    padding: 10px 0px 0px 19px;
+    background-color: #f8eaed;
+    border-radius: 50%;
+    margin: 8px;
+}
+
+
+.line1 {
+    width: 1px;
+    height: 127px;
+    border: 1px solid #f8eaed ;
+    margin:10px 0px 0px 33px;
+}
+
+
+
+.info-text {
+    width: 100%;
+    color: #615f5f;
+    margin-left: 35px;
+
+}
+
+.info-text h2 {
+    font-size: 26px;
+}
+
+.info-text p {
+    font-size: 16px;
+
+}
+
+.comp-img {
+    width: 100%;
+    height: 700px
+}
+
+
+
+.comp-img img {
+    width: 73%;
+    height: 700px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-left: 110px;
+
 }
