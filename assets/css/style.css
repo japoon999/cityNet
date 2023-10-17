@@ -104,7 +104,6 @@
     right: 60px;
 }
 
-
 .nav-item .nav-link a {
     color: var(--black);
     font-weight: 500;
@@ -124,8 +123,6 @@
     right: 65px;
 }
 
-
-
 .d-block {
     height: 500px;
 }
@@ -135,7 +132,6 @@
     height: 300px;
     padding-left: 115px;
 }
-
 
 .block {
     width: 91%;
@@ -156,7 +152,6 @@
     margin-right: 21px;
 }
 
-
 .city-block input {
     width: 250px;
     border-radius: 8px;
@@ -164,9 +159,6 @@
     border: 2px solid #ccc;
     margin-top: 19px;
 }
-
-
-
 
 .dropdown {
     width: 22%;
@@ -179,7 +171,6 @@
     top: 70px;
     line-height: 40px;
 }
-
 
 .city-block:hover .dropdown {
     display: block;
@@ -205,8 +196,6 @@ input::placeholder {
     font-weight: 700;
 }
 
-
-
 .block span {
     position: relative;
     left: 12px;
@@ -214,7 +203,6 @@ input::placeholder {
     font-size: 11px;
     background-color: var(--white);
 }
-
 
 .street-box input {
     width: 250px;
@@ -224,9 +212,6 @@ input::placeholder {
     margin-top: 19px;
 }
 
-
-
-
 .home-box input {
     width: 150px;
     border-radius: 10px;
@@ -235,10 +220,6 @@ input::placeholder {
     border: 2px solid #ccc;
     margin-top: 19px;
 }
-
-
-
-
 
 .close-bt button {
     width: 170px;
@@ -252,14 +233,12 @@ input::placeholder {
     border: 2px solid #ccc;
 }
 
-
 .close-bt button a {
     font-size: 14px;
     font-weight: 900;
     color: #b8b8b8;
     cursor: not-allowed;
 }
-
 
 .close-bt::before {
     content: '';
@@ -270,8 +249,6 @@ input::placeholder {
     right: 230px;
 }
 
-
-
 .tariff-text h2 {
     margin: 40px 110px;
     font-size: 40px;
@@ -279,15 +256,11 @@ input::placeholder {
     color: #5f5b5b;
 }
 
-
-
-
 .tariff-list {
     display: flex;
     justify-content: space-around;
     padding: 0px 90px;
 }
-
 
 .list-box {
     width: 30%;
@@ -297,12 +270,9 @@ input::placeholder {
     position: relative;
 }
 
-
 .list-box h4 {
     padding: 30px 20px;
 }
-
-
 
 .golobos {
     display: grid;
@@ -357,7 +327,6 @@ input::placeholder {
     font-size: 20px;
 }
 
-
 .footer-bt {
     width: 80%;
     height: 65px;
@@ -375,8 +344,6 @@ input::placeholder {
     left: 20px;
 }
 
-
-
 .footer-bt button {
     width: 100px;
     height: 45px;
@@ -389,14 +356,9 @@ input::placeholder {
     top: 10px;
 }
 
-
-
-
 .footer-bt button a {
     color: var(--white);
 }
-
-
 
 .list-bt button {
     border: none;
@@ -410,7 +372,6 @@ input::placeholder {
     left: 160px;
 }
 
-
 .keyboard {
     position: absolute;
     margin: 25px;
@@ -418,7 +379,6 @@ input::placeholder {
     color: #5f5b5b;
     font-size: 19px;
 }
-
 
 .footer-btn {
     width: 80%;
@@ -430,11 +390,6 @@ input::placeholder {
     left: 30px;
 }
 
-
-
-
-
-
 .footer-btn span {
     font-size: 20px;
     font-weight: 700;
@@ -443,8 +398,6 @@ input::placeholder {
     top: 15px;
     left: 20px;
 }
-
-
 
 .footer-btn button {
     width: 100px;
@@ -462,7 +415,6 @@ input::placeholder {
     color: white;
 }
 
-
 .info-banner {
     width: 84%;
     height: 370px;
@@ -472,9 +424,6 @@ input::placeholder {
     display: flex;
     justify-content: space-between;
 }
-
-
-
 
 .banner-text {
     width: 50%;
@@ -487,13 +436,11 @@ input::placeholder {
     color: white;
 }
 
-
 .banner-text h6 {
     font-size: 18px;
     color: var(--white);
     margin-top: 25px;
 }
-
 
 .banner-btn button {
     width: 45%;
@@ -503,15 +450,9 @@ input::placeholder {
     margin-top: 30px;
 }
 
-
 .banner-btn button a {
     color: var(--primaryRed);
 }
-
-
-
-
-
 
 .banner-color {
     width: 28%;
@@ -522,12 +463,6 @@ input::placeholder {
     left: 823px;
     top: 128rem;
 }
-
-
-
-
-
-
 
 .banner-img img {
     width: 65%;
@@ -540,8 +475,6 @@ input::placeholder {
     width: 100%;
     height: 100vh;
 }
-
-
 
 .title-head h2 {
     font-size: 45px;
@@ -558,15 +491,12 @@ input::placeholder {
     margin-top: 35px;
 }
 
-
-
 .title-box {
     width: 45%;
     height: 230px;
     background-color: #f4f4f4;
     border-radius: 10px;
 }
-
 
 .title-img {
     width: 20px;
@@ -585,17 +515,11 @@ input::placeholder {
     bottom: 15px;
 }
 
-
-
-
-
 .title-box h2 {
     margin: 25px 25px;
     font-weight: 900;
     color: #5f5b5b;
 }
-
-
 
 .title-box h5 {
     width: 95%;
@@ -619,7 +543,6 @@ input::placeholder {
 
 }
 
-
 .content-text h5 {
     color: #979292;
     margin: 20px 0px 0px 90px;
@@ -632,17 +555,12 @@ input::placeholder {
 
 }
 
-
-
 .info-box {
     width: 100%;
     height: 200px;
     display: flex;
     justify-content: space-evenly;
 }
-
-
-
 
 .numbber-box {
     width: 75px;
@@ -651,7 +569,6 @@ input::placeholder {
     border: 1px solid rgb(206, 204, 204);
     border-radius: 50%;
 }
-
 
 .cricle {
     width: 55px;
@@ -665,15 +582,12 @@ input::placeholder {
     margin: 8px;
 }
 
-
 .line1 {
     width: 1px;
     height: 127px;
     border: 1px solid #f8eaed;
     margin: 10px 0px 0px 33px;
 }
-
-
 
 .info-text {
     width: 100%;
@@ -696,8 +610,6 @@ input::placeholder {
     height: 700px
 }
 
-
-
 .comp-img img {
     width: 80%;
     height: 700px;
@@ -706,8 +618,6 @@ input::placeholder {
     margin-left: 90px;
 
 }
-
-
 
 .hot-offers {
     width: 100%;
@@ -721,9 +631,6 @@ input::placeholder {
     color: #615f5f;
 }
 
-
-
-
 .hot-silders {
     width: 100%;
     display: flex;
@@ -731,7 +638,6 @@ input::placeholder {
     justify-content: space-between;
     padding: 40px 100px 0px 90px;
 }
-
 
 .hot-box {
     width: 33.3333333%;
@@ -747,39 +653,35 @@ input::placeholder {
     border-radius: 10px 10px 0px 0px;
 }
 
-
 .hot-text h3 {
     color: var(--primaryRed);
     padding: 30px 0px 0px 20px;
 }
 
-
 .hot-text p {
     padding: 3px 0px 0px 20px;
     color: #615f5f;
-
 }
 
-.hot-bt{
-background-color: var(--primaryRed);
-width: 50px;
-color: var(--white);
-padding: 13px;
-border-radius: 8px;
-transition: 300ms all linear;
-margin:25px 0px 0px 20px;
-text-align: center;
+.hot-bt {
+    background-color: var(--primaryRed);
+    width: 50px;
+    color: var(--white);
+    padding: 13px;
+    border-radius: 8px;
+    transition: 300ms all linear;
+    margin: 25px 0px 0px 20px;
+    text-align: center;
 }
 
-
-.hot-bt span{
+.hot-bt span {
     opacity: 0;
     width: 0px;
     display: inline-block;
 }
 
 
-.hot-bt:hover{
+.hot-bt:hover {
     width: 300px;
     background-color: #66172b;
 }
@@ -791,9 +693,10 @@ text-align: center;
     float: right;
 }
 
-
-.hot-bt:hover span{
+.hot-bt:hover span {
     width: fit-content;
     opacity: 1;
-   
 }
+
+/* online-payments */
+
