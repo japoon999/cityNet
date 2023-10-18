@@ -645,6 +645,13 @@ input::placeholder {
     border: 1px solid #dbced1;
     border-radius: 10px;
     cursor: pointer;
+    transition: box-shadow 1s;
+
+}
+
+.hot-box:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 300ms all linear;
 }
 
 .hot-img img {
@@ -700,3 +707,86 @@ input::placeholder {
 
 /* online-payments */
 
+
+.online-payments {
+    width: 100%;
+    height: 100vh;
+}
+
+.payments-text {
+    width: 100%;
+    padding: 140px 0px 0px 90px;
+}
+
+.payments-text h2 {
+    font-size: 43px;
+    font-weight: 700;
+    color: #5f5b5b;
+}
+
+.payments-text p {
+    font-size: 18px;
+    color: #5f5b5b;
+}
+
+
+.payments-background {
+    width: 87%;
+    height: 330px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    margin-left: 90px;
+    
+
+}
+
+.payments-items {
+    width: 100%;
+    height: 330px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding:50px;
+    
+
+}
+
+.payment-item {
+    width: 95%;
+    height: 95px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.payment-img span {
+    margin-left: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #615f5f;
+}
+
+.payment-img img{
+    width: 65px;
+    height: 45px;
+
+}
+
+.payment-btn button {
+    width: 45px;
+    font-size: 24px;
+    padding: 3px 9px;
+    border-radius: 7px;
+    color: var(--primaryRed);
+    border: none;
+    background-color: #f8eaed;
+}
+
+
+.payment-btn button:hover {
+    background-color: #fdd2db;
+
+}
